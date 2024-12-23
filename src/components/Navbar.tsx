@@ -1,7 +1,8 @@
-
+import MobileNavbar from "./MobileNavbar";
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <div className="hidden xl:flex">
       <ul>
         <li><a href="/">Home 
             </a>
@@ -16,6 +17,10 @@ const Navbar = () => {
         </li>
         <li><a href = "/contact"> Contact Us </a></li>
       </ul>
+      </div>
+      <div className="flex xl:hidden">
+        <MobileNavbar />
+      </div>
     </nav>
   );
 };

@@ -1,14 +1,13 @@
-import Header from "../components/Header";
-import SearchBar from "../components/SearchBar";
+// import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-
+import SearchBar from "../components/SearchBar";
 const Home = () => {
     return (
         <>
-        <Header />
+        {/* <Header />
+      */}
+      <Navbar /> 
       <SearchBar />
-      <Navbar />
-      
         </>
     )
 }
