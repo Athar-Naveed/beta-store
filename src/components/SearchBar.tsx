@@ -12,7 +12,7 @@ const categories = [
   'Wiper arm',
 ];
 
-const SearchBar: React.FC = () => {
+const SearchBar = () => {
   const [selectedCategory, setSelectedCategory] = useState('Select category');
   const [searchInput, setSearchInput] = useState('');
 
