@@ -1,6 +1,5 @@
-import "../styles/header.css";
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <div className="header">
       <div className="header-top">

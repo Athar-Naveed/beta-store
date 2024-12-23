@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/searchbar.css';
 
 const categories = [
   'Select category',

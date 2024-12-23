@@ -1,19 +1,16 @@
-import Header from "./components/Header"
-import Navbar from "./components/Navbar"
-import SearchBar from "./components/SearchBar"
-
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
 
   return (
     <>
-    <div className="text-2xl text-black text-center">
-      <h1>Hi there</h1>
-      <Header />
-      <SearchBar />
-      <Navbar />
-      
-    </div>
+    <Router>
+      <Routes>
+
+      <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
     </>
   )
 }
