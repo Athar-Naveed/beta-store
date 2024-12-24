@@ -1,6 +1,7 @@
 // import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
+import Footer from "../components/Footer";
 const Home = () => {
     return (
         <>
@@ -8,6 +9,7 @@ const Home = () => {
       */}
       <Navbar /> 
       <SearchBar />
+      <Footer />
         </>
     )
 }

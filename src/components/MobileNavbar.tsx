@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SearchBar from "./SearchBar";
 const MobileNavbar = () => {
     return (
         <>
@@ -31,6 +32,7 @@ const MobileNavbar = () => {
                     <span className="px-1 h-fit text-xs rounded-full bg-yellow-500 ml-2 mt-2">0</span>
                 </div>
             </div>
+        <SearchBar />
         </div>
         </>
     )
